@@ -1,0 +1,19 @@
+body{
+    background-color: peachpuff;
+}
+*{
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+div{
+    border-style: solid;
+}
+label{
+    border: solid;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}

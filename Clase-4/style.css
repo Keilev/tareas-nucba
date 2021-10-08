@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    color:black;
+    background-color: burlywood;
+    text-align: center;
+}
+.borde{
+    font-size: 30px;
+    background-color: chocolate;
+    text-align: center;
+}
+.borde-2{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 20px;
+    border: 4px;
+    border-style: solid;
+}

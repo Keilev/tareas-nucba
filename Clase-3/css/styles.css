@@ -1,0 +1,73 @@
+p{
+    background-color: lightgoldenrodyellow;
+}
+p::first-letter{
+    font-size: 45px;
+}
+p:first-child{
+    background-color: rgb(78, 36, 36);
+}
+p:nth-child(4){
+    background-color: lightgreen;
+}
+p:nth-child(odd){
+    background-color:lightsalmon;
+}
+p:nth-child(even){
+    background-color: rgb(139, 123, 226);
+    font-size: 30px;
+}
+p:nth-last-child(4){
+    color: rgb(21, 43, 58);
+}
+*{
+    margin: 1;
+    padding: 1;
+    font-family: cursive;
+    color: rgb(101, 221, 201);
+}
+
+.title-1 {
+    color: rgb(24, 173, 173);
+}
+
+.title-2    {
+    color: rgb(55, 158, 218);
+}
+.title-3    {
+    color: rgb(134, 63, 204);
+}
+#title  {
+    background:rgb(196, 74, 74)
+}
+.italic {
+    font-style: italic;
+}
+a {
+    color: rgb(48, 224, 224);
+}
+a:visited   {
+    color: rgb(109, 39, 173);
+}
+a:hover {
+    background-color: cornflowerblue;
+}
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed blueviolet
+}
+.cuadrado{
+    color: mediumpurple;
+    width: 200px;
+    height: 100px;
+    background-color: chocolate;
+    border: cornflowerblue 2px solid;
+    border-radius: 10px;
+}
+body    {
+    background-image: url('../img/fondo2.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
